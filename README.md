@@ -2,6 +2,12 @@
 
 An interactive 3-page Power BI dashboard analysing Airbnb listings, reviews and hosts across 10 major cities, covering listing growth, market share, ratings, seasonality and host trust.
 
+## Dataset
+
+The original Airbnb dataset is large and is hosted separately to keep this GitHub repository lightweight.
+
+**Download Dataset:** https://drive.google.com/drive/folders/1jSGXlBv1nEHqlDiRxlzUG75VMmoqgT-Z?usp=sharing
+
 ## Objective
 
 Understand how Airbnb grew, which cities dominate the market, how guests rate their stays, and how reviewing behaviour and host trust differ across cities.
