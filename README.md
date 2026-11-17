@@ -2,24 +2,9 @@
 
 An interactive 3-page Power BI dashboard analysing Airbnb listings, reviews and hosts across 10 major cities, covering listing growth, market share, ratings, seasonality and host trust.
 
-![Dashboard page 1](images/airbnb_page1.png)
-
 ## Objective
 
 Understand how Airbnb grew, which cities dominate the market, how guests rate their stays, and how reviewing behaviour and host trust differ across cities.
-
-## Dataset
-
-| File | Rows | Description |
-|---|---|---|
-| `Listings.csv` | 279,712 | Listing details: city, room and property type, price, host info, review scores |
-| `Reviews.csv` | 5,373,143 | One row per review: listing, reviewer and date (Nov 2008 to Mar 2021) |
-
-- **Cities (10):** Paris, New York, Sydney, Rome, Rio de Janeiro, Istanbul, Mexico City, Bangkok, Cape Town, Hong Kong
-- **Hosts:** 182,024 | **Property types:** 144
-- Data dictionaries are in `data/`.
-
-> **Note:** The raw CSVs are too large for GitHub (152 MB and 244 MB). Download them from: `ADD-DATASET-LINK-HERE` and place them in the `data/` folder.
 
 ## Dashboard Pages
 
@@ -47,23 +32,3 @@ Understand how Airbnb grew, which cities dominate the market, how guests rate th
 Power BI Desktop, Power Query, DAX
 
 <!-- TODO: if you also clean or query the data with Python (Pandas) or SQL, add them to Tools Used and describe it in a short "Analysis Steps" section -->
-
-## Repository Structure
-
-```
-├── data/
-│   ├── Listings_data_dictionary.csv
-│   └── Reviews_data_dictionary.csv
-├── dashboard/
-│   └── Airbnb_Dashboard.pbix
-├── images/
-│   ├── airbnb_page1.png
-│   ├── airbnb_page2.png
-│   └── airbnb_page3.png
-└── README.md
-```
-
-## Author
-
-**Rishabh Jain** | B.Tech CSE (Data Science), Chandigarh Group of Colleges, Landran
-[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN) | rishabh151jain@gmail.com
